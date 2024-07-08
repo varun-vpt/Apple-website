@@ -1,0 +1,365 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,body {
+    width: 100%;
+    min-height: 100%;
+    background-color:white;
+}
+
+.nav{
+    position: sticky;
+    top: 0%;
+    background-color: rgba(255, 255, 255, 0.734);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 400px;
+    font-size: small;
+}
+.nav p{
+    font-weight: 500;
+}
+
+.nav i{
+    position: sticky;
+    font-size: 1.1rem;
+}
+.footer {
+    background-color: rgb(245, 245, 245);
+    padding: 20px 350px;
+}
+.footer p {
+    color: rgb(120, 120, 120);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.75rem;
+    line-height: 1rem;
+}
+.footer .line{
+    margin: 1.5rem 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(193, 193, 193);
+}
+.links{
+    display: flex;
+}
+.sublinks{
+    width: calc(100% / 5);
+}
+.sublinks div{
+    margin-bottom: 1.5rem;
+}
+.sublinks div p{
+    margin-bottom: 0.5rem;
+}
+.sublinks div p:nth-child(1){
+    font-weight: 500;
+    color: black;
+}
+.macbook{
+    width: 100%;
+    height:40rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 170%;
+    background-image: url("./hero_macbook_air_m3__cp4t7pn8zqaa_largetall_2x.jpg");
+    display: flex;
+    justify-content: center;
+}
+.macbook .content{
+    text-align: center;
+    margin-top: 3rem;
+}
+.macbook div h1{
+    font-size: 3.5rem;
+    font-weight:600;
+}
+.macbook div p{
+    font-size: 1.8rem;
+    font-weight:300;
+}
+.buttonsDiv{
+    justify-content: center;
+    display: flex;
+    gap: 1.5rem;
+}
+.buttonsDiv button{    
+    margin-top: .8rem;
+    border: none;
+    border: 1px solid rgb(19, 129, 255);
+    padding: 0.7rem 1.5rem;
+    border-radius: 50px;
+    font-size: 1.1rem;
+}
+.learnMore{
+    background-color: rgb(19, 129, 255);
+    color: white;
+}
+.Buy{
+    background-color: transparent;
+    color: rgb(19, 129, 255);
+    transition: 0.1s;
+}
+.Buy:hover{
+    background-color: rgb(19, 129, 255);
+    color: white;
+}
+.cardNTrade{
+    gap: 0.8rem;
+    background-color: white;
+    margin: 0.8rem;
+    display: flex;
+    width: 100%;
+    height: 35rem;   
+}
+.cardNTrade .right{
+    background-image: url(./promo_iphone_tradein__bugw15ka691e_large_2x.jpg);
+}
+.cardNTrade .left{
+    background-image: url(./promo_apple_card__5cm7draujpey_large_2x.jpg);
+
+}
+.cardNTrade .right, .cardNTrade .left{
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+}
+
+.cardNTrade .right .content, .cardNTrade .left .content{
+    text-align: center;
+    margin-top: 3rem;
+    width: 35%;
+}
+
+.cardNTrade h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.cardNTrade p{
+    margin-top: 0.5rem;
+    font-size: 1.35rem;
+    font-weight: 300;
+}
+.cardNTrade button{
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+}
+
+.watchPhone {
+    gap: 0.8rem;
+    background-color: white;
+    margin: 0.8rem;
+    display: flex;
+    width: 100%;
+    height: 35rem; 
+}
+
+.watchPhone .left .content, .watchPhone .right .content {
+    text-align: center;
+    margin-top: 3rem;
+    width: 55%;
+}
+
+.watchPhone .left {
+    background-image: url(./promo_apple_watch_series_9_order__b3u85rm9zf6u_large_2x.jpg);
+
+}
+
+.watchPhone .right {
+    background-image: url(./promo_ai__couihqxznyvm_large_2x.jpg);
+}
+
+.watchPhone .left, .watchPhone .right {
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+}
+
+.watchPhone .left h1 {
+    font-size: 2rem;
+    color: white;
+    justify-content: center;
+}
+
+.watchPhone .left .s9 {
+    justify-content: center;
+    font-size: 0.9rem;
+    padding: 0.4rem;
+    letter-spacing: 0.1rem;
+    color: red;
+    
+   
+}
+
+.watchPhone .left p {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 200;
+    justify-content: center;
+}
+
+.watchPhone button { 
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    
+    
+}
+
+.watchPhone .right h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+
+.watchPhone .right p {
+    color: black;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.watchPhone .right .beta {
+    justify-content: center;
+    padding: 0.8rem;
+    color: rgb(114, 113, 113);
+    font-size: 1rem;
+}
+
+.visionPro {
+    gap: 0.8rem;
+    background-color: white;
+    margin: 0.8rem;
+    display: flex;
+    width: 100%;
+    height: 35rem; 
+    
+}
+
+.visionPro .left {
+    background-image: url(./promo_ipadpro__ch217v9v7no2_large_2x.jpg);
+}
+
+.visionPro .right {
+    background-image: url(./promo_apple_vision_pro__f4v4zp0sum2y_large_2x.jpg);
+}
+
+.visionPro .left .content, .visionPro .right .content {
+    text-align: center;
+    width:55%;
+    margin-top: 3rem;
+}
+.visionPro .left, .visionPro .right {
+    display: flex;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.visionPro .left h1 {
+    color: white;
+    justify-content: center; 
+}
+
+.visionPro .left p {
+    color: white;
+    justify-content: center;
+}
+
+.visionPro .left h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.visionPro .left p {
+    padding: 0.3rem 0.5rem;
+    font-size: 1.4rem;
+    font-weight: 300;
+}
+
+.visionPro button{
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+}
+
+
+.visionPro .right {
+    align-items: end;
+    padding: 3rem;
+}
+
+.visionPro .right h1 {
+    font-size: 2.5rem;
+    font-weight: 450;
+}
+
+.visionPro .right p {
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 300;
+    justify-content: center;
+    padding: 0.3rem;
+}
+
+.hero {
+    background-image: url(./hero_iphone_family_a__c7v3mvx3jv42_largetall_2x.jpg);
+}
+
+.hero {
+    margin-top: 0.8rem;
+    padding: 2rem;
+    width: 100%;
+    height: 40rem;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.hero p {
+    color: white;
+    text-align: center; 
+    font-size: 2rem;
+    font-weight: 300;
+    justify-content: center;
+}
+
+.hero h1 {
+    font-size: 3.5rem;
+    font-weight: 550;
+    text-align: center;
+    color: white;
+}
+
+.footer .lastLine, p {
+    
+    display: flex;
+   justify-content: pace-between;
+   gap: 0.5rem;
+  
+}
+
+.united {
+    margin-left: 15.7rem;
+}
+
+.copy {
+    margin-right: 0.1rem;
+}
+
+
+
